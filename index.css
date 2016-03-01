@@ -1,6 +1,6 @@
 .main {
   padding: 50px;
-  background: url('parchment.png') no-repeat center center fixed;
+  background: url('img/parchment.png') no-repeat center center fixed;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -21,7 +21,7 @@
 }
 
 .banner {
-  background: url('Default_Profile_Banner.png') no-repeat;
+  background: url('img/Default_Profile_Banner.png') no-repeat;
   background-size: 100%;
   height: 140px;
 }
@@ -29,4 +29,29 @@
 .banner h1 {
   display: inline-block;
   color: white;
+}
+
+
+.champion-container {
+  display: inline-block;
+  width: 172px;
+}
+
+.champion-container .summoner-spells{
+  width: 50px;
+  height: 50px;
+}
+
+.champion-container .champion {
+  float: left;
+}
+
+.row {
+  width: 1340px;
+}
+
+.game-mode {
+  display: inline-block;
+  width: 150px;
+  vertical-align: top;
 }
